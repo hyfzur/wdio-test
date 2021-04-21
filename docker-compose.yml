@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    selenium:
+        image: ianwalter/puppeteer:latest
+        ports: 
+            - 4444:4444
+        restart: always
+        
+    app:
+        build: 
+            context: .
+        volumes: 
+            - ./:/wdio
+        command: sh -c "npm run test"

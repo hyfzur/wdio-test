@@ -1,0 +1,72 @@
+{
+  "start": "2021-04-21T16:19:40.353Z",
+  "end": "2021-04-21T16:19:48.360Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "90.0.4430.85",
+    "chrome": {
+      "chromedriverVersion": "90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})",
+      "userDataDir": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/.com.google.Chrome.fypKRL"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:50282"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "mac os x",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "webdriver.remote.sessionid": "c0e0275f83fc1618cd26ddc8ced3aae8",
+    "sessionId": "c0e0275f83fc1618cd26ddc8ced3aae8"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "http://localhost",
+  "framework": "mocha",
+  "duration": 8007,
+  "suites": [
+    {
+      "title": "Test spec 1",
+      "duration": 7944,
+      "start": "2021-04-21T16:19:40.358Z",
+      "end": "2021-04-21T16:19:48.302Z",
+      "tests": [
+        {
+          "title": "Load test website",
+          "start": "2021-04-21T16:19:40.359Z",
+          "end": "2021-04-21T16:19:48.264Z",
+          "duration": 7905,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "H2 should be visible",
+          "start": "2021-04-21T16:19:48.265Z",
+          "end": "2021-04-21T16:19:48.301Z",
+          "duration": 36,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "/Users/hifzur/Desktop/javascriptProjects/wdio-test/tests/test1.js"
+  ],
+  "state": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0
+  }
+}
