@@ -1,24 +1,21 @@
 {
-  "start": "2021-04-22T06:25:17.842Z",
-  "end": "2021-04-22T06:25:26.300Z",
+  "start": "2021-04-22T11:00:06.714Z",
+  "end": "2021-04-22T11:00:24.197Z",
   "capabilities": {
     "acceptInsecureCerts": true,
-    "browserName": "firefox",
-    "browserVersion": "87.0",
-    "moz:accessibilityChecks": false,
-    "moz:buildID": "20210318103112",
-    "moz:debuggerAddress": "localhost:55443",
-    "moz:geckodriverVersion": "0.29.1",
-    "moz:headless": false,
-    "moz:processID": 14658,
-    "moz:profile": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/rust_mozprofileBOQa7n",
-    "moz:shutdownTimeout": 60000,
-    "moz:useNonSpecCompliantPointerOrigin": false,
-    "moz:webdriverClick": true,
+    "browserName": "chrome",
+    "browserVersion": "90.0.4430.85",
+    "chrome": {
+      "chromedriverVersion": "90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})",
+      "userDataDir": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/.com.google.Chrome.Bn8Y6o"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:53984"
+    },
+    "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
-    "platformName": "mac",
-    "platformVersion": "20.3.0",
-    "rotatable": false,
+    "platformName": "mac os x",
+    "proxy": {},
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -27,34 +24,43 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "webdriver.remote.sessionid": "690cd76d-3ab6-a04f-ae00-acad7d37948d",
-    "sessionId": "690cd76d-3ab6-a04f-ae00-acad7d37948d"
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "webdriver.remote.sessionid": "d67a8939402ccabe9404c2a1f3ebea31",
+    "sessionId": "d67a8939402ccabe9404c2a1f3ebea31"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 8458,
+  "duration": 17483,
   "suites": [
     {
       "title": "Test spec 1",
-      "duration": 7868,
-      "start": "2021-04-22T06:25:17.847Z",
-      "end": "2021-04-22T06:25:25.715Z",
+      "duration": 17420,
+      "start": "2021-04-22T11:00:06.719Z",
+      "end": "2021-04-22T11:00:24.139Z",
       "tests": [
         {
           "title": "Load test website",
-          "start": "2021-04-22T06:25:17.847Z",
-          "end": "2021-04-22T06:25:25.680Z",
-          "duration": 7833,
-          "state": "passed",
-          "screenshots": []
+          "start": "2021-04-22T11:00:06.720Z",
+          "end": "2021-04-22T11:00:24.111Z",
+          "duration": 17391,
+          "state": "failed",
+          "screenshots": [
+            "/Users/hifzur/Desktop/javascriptProjects/wdio-test/timeline-report/file-1619089224107.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Expect window to have title\n\nExpected: \u001b[32m\"A million more | Volvo Cars\"\u001b[39m\nReceived: \u001b[31m\"A million more | Volvo Cars\u001b[7m - International\u001b[27m\"\u001b[39m",
+            "stack": "Error: Expect window to have title\n\nExpected: \u001b[32m\"A million more | Volvo Cars\"\u001b[39m\nReceived: \u001b[31m\"A million more | Volvo Cars\u001b[7m - International\u001b[27m\"\u001b[39m\n    at Context.<anonymous> (/Users/hifzur/Desktop/javascriptProjects/wdio-test/tests/test1.js:10:25)"
+          }
         },
         {
           "title": "H2 should be visible",
-          "start": "2021-04-22T06:25:25.681Z",
-          "end": "2021-04-22T06:25:25.714Z",
-          "duration": 33,
+          "start": "2021-04-22T11:00:24.112Z",
+          "end": "2021-04-22T11:00:24.139Z",
+          "duration": 27,
           "state": "passed",
           "screenshots": []
         }
@@ -66,8 +72,8 @@
     "/Users/hifzur/Desktop/javascriptProjects/wdio-test/tests/test1.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 0,
+    "passed": 1,
+    "failed": 1,
     "skipped": 0
   }
 }
