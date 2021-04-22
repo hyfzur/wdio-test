@@ -1,21 +1,24 @@
 {
-  "start": "2021-04-21T16:19:40.353Z",
-  "end": "2021-04-21T16:19:48.360Z",
+  "start": "2021-04-22T06:25:17.842Z",
+  "end": "2021-04-22T06:25:26.300Z",
   "capabilities": {
     "acceptInsecureCerts": true,
-    "browserName": "chrome",
-    "browserVersion": "90.0.4430.85",
-    "chrome": {
-      "chromedriverVersion": "90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})",
-      "userDataDir": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/.com.google.Chrome.fypKRL"
-    },
-    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:50282"
-    },
-    "networkConnectionEnabled": false,
+    "browserName": "firefox",
+    "browserVersion": "87.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20210318103112",
+    "moz:debuggerAddress": "localhost:55443",
+    "moz:geckodriverVersion": "0.29.1",
+    "moz:headless": false,
+    "moz:processID": 14658,
+    "moz:profile": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/rust_mozprofileBOQa7n",
+    "moz:shutdownTimeout": 60000,
+    "moz:useNonSpecCompliantPointerOrigin": false,
+    "moz:webdriverClick": true,
     "pageLoadStrategy": "normal",
-    "platformName": "mac os x",
-    "proxy": {},
+    "platformName": "mac",
+    "platformVersion": "20.3.0",
+    "rotatable": false,
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -24,36 +27,34 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "webauthn:extension:largeBlob": true,
-    "webauthn:virtualAuthenticators": true,
-    "webdriver.remote.sessionid": "c0e0275f83fc1618cd26ddc8ced3aae8",
-    "sessionId": "c0e0275f83fc1618cd26ddc8ced3aae8"
+    "webdriver.remote.sessionid": "690cd76d-3ab6-a04f-ae00-acad7d37948d",
+    "sessionId": "690cd76d-3ab6-a04f-ae00-acad7d37948d"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 8007,
+  "duration": 8458,
   "suites": [
     {
       "title": "Test spec 1",
-      "duration": 7944,
-      "start": "2021-04-21T16:19:40.358Z",
-      "end": "2021-04-21T16:19:48.302Z",
+      "duration": 7868,
+      "start": "2021-04-22T06:25:17.847Z",
+      "end": "2021-04-22T06:25:25.715Z",
       "tests": [
         {
           "title": "Load test website",
-          "start": "2021-04-21T16:19:40.359Z",
-          "end": "2021-04-21T16:19:48.264Z",
-          "duration": 7905,
+          "start": "2021-04-22T06:25:17.847Z",
+          "end": "2021-04-22T06:25:25.680Z",
+          "duration": 7833,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "H2 should be visible",
-          "start": "2021-04-21T16:19:48.265Z",
-          "end": "2021-04-21T16:19:48.301Z",
-          "duration": 36,
+          "start": "2021-04-22T06:25:25.681Z",
+          "end": "2021-04-22T06:25:25.714Z",
+          "duration": 33,
           "state": "passed",
           "screenshots": []
         }

@@ -1,21 +1,24 @@
 {
-  "start": "2021-04-21T16:19:40.353Z",
-  "end": "2021-04-21T16:19:46.751Z",
+  "start": "2021-04-22T06:25:17.921Z",
+  "end": "2021-04-22T06:25:34.671Z",
   "capabilities": {
     "acceptInsecureCerts": true,
-    "browserName": "chrome",
-    "browserVersion": "90.0.4430.85",
-    "chrome": {
-      "chromedriverVersion": "90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})",
-      "userDataDir": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/.com.google.Chrome.IYmWC4"
-    },
-    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:50283"
-    },
-    "networkConnectionEnabled": false,
+    "browserName": "firefox",
+    "browserVersion": "87.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20210318103112",
+    "moz:debuggerAddress": "localhost:55442",
+    "moz:geckodriverVersion": "0.29.1",
+    "moz:headless": false,
+    "moz:processID": 14657,
+    "moz:profile": "/var/folders/cz/lvhzq9h96rd2jn059mlnshvm0000gn/T/rust_mozprofileEasFbw",
+    "moz:shutdownTimeout": 60000,
+    "moz:useNonSpecCompliantPointerOrigin": false,
+    "moz:webdriverClick": true,
     "pageLoadStrategy": "normal",
-    "platformName": "mac os x",
-    "proxy": {},
+    "platformName": "mac",
+    "platformVersion": "20.3.0",
+    "rotatable": false,
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -24,31 +27,29 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "webauthn:extension:largeBlob": true,
-    "webauthn:virtualAuthenticators": true,
-    "webdriver.remote.sessionid": "cdf723e19e8a17b25e68d34be7dee625",
-    "sessionId": "cdf723e19e8a17b25e68d34be7dee625"
+    "webdriver.remote.sessionid": "ff3b937f-b83f-2d44-8a9d-3e9cc1f6d813",
+    "sessionId": "ff3b937f-b83f-2d44-8a9d-3e9cc1f6d813"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 6398,
+  "duration": 16750,
   "suites": [
     {
       "title": "Test spec 2",
-      "duration": 6331,
-      "start": "2021-04-21T16:19:40.359Z",
-      "end": "2021-04-21T16:19:46.690Z",
+      "duration": 16241,
+      "start": "2021-04-22T06:25:17.926Z",
+      "end": "2021-04-22T06:25:34.167Z",
       "tests": [
         {
           "title": "Get text of H2 header ",
-          "start": "2021-04-21T16:19:40.359Z",
-          "end": "2021-04-21T16:19:45.999Z",
-          "duration": 5640,
+          "start": "2021-04-22T06:25:17.926Z",
+          "end": "2021-04-22T06:25:24.288Z",
+          "duration": 6362,
           "state": "failed",
           "screenshots": [
-            "/Users/hifzur/Desktop/javascriptProjects/wdio-test/timeline-report/file-1619021985994.jpeg"
+            "/Users/hifzur/Desktop/javascriptProjects/wdio-test/timeline-report/file-1619072724284.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -58,11 +59,18 @@
         },
         {
           "title": "Check link value",
-          "start": "2021-04-21T16:19:46.000Z",
-          "end": "2021-04-21T16:19:46.689Z",
-          "duration": 689,
-          "state": "passed",
-          "screenshots": []
+          "start": "2021-04-22T06:25:24.289Z",
+          "end": "2021-04-22T06:25:34.167Z",
+          "duration": 9878,
+          "state": "failed",
+          "screenshots": [
+            "/Users/hifzur/Desktop/javascriptProjects/wdio-test/timeline-report/file-1619072734163.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Expect $(`#IconCallouts-1 > section > div > div.ay.bx.by.bz.co.dl.gn.go.gp.q.r > div > a`) to have attribute href\n\nExpected: \u001b[32m\"\u001b[7mhttps://www.volvocars.com\u001b[27m/intl/v/car-safety\"\u001b[39m\nReceived: \u001b[31m\"/intl/v/car-safety\"\u001b[39m",
+            "stack": "Error: Expect $(`#IconCallouts-1 > section > div > div.ay.bx.by.bz.co.dl.gn.go.gp.q.r > div > a`) to have attribute href\n\nExpected: \u001b[32m\"\u001b[7mhttps://www.volvocars.com\u001b[27m/intl/v/car-safety\"\u001b[39m\nReceived: \u001b[31m\"/intl/v/car-safety\"\u001b[39m\n    at Context.<anonymous> (/Users/hifzur/Desktop/javascriptProjects/wdio-test/tests/test2.js:18:22)"
+          }
         }
       ],
       "hooks": []
@@ -72,8 +80,8 @@
     "/Users/hifzur/Desktop/javascriptProjects/wdio-test/tests/test2.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 1,
+    "passed": 0,
+    "failed": 2,
     "skipped": 0
   }
 }
