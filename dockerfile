@@ -20,7 +20,7 @@ RUN apt-get install git --yes
 
 RUN apt-get install wget --yes
 
-RUN apt-get install g++ build-essential --yes
+# RUN apt-get install g++ build-essential --yes
 
 # Update the timezone
 # RUN apt-get install tzdata
